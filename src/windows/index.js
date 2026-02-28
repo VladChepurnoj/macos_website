@@ -1,3 +1,8 @@
-import Terminal from "#windows/Terminal";
+import Terminal from "/Terminal";
+import Safari from "./Safari";
+import Resume from "./Resume";
+import Finder from "./Finder";
+import Text from "./Text";
+import ImageWindowContent from "./ImageWindowContent";
 
-export default Terminal;
+export default { Terminal, Safari, Resume, Finder, Text, ImageWindowContent };
