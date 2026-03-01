@@ -9,6 +9,7 @@ import {
   Finder,
   Text,
   ImageWindowContent,
+  Contact,
 } from "#windows";
 import { Navbar, Welcome, Dock } from "#components";
 
@@ -27,6 +28,7 @@ const App = () => {
       <Finder />
       <Text />
       <ImageWindowContent />
+      <Contact />
     </main>
   );
 };
